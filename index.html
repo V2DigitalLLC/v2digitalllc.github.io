@@ -5,161 +5,158 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>V2 Digital Group</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
+      font-family: 'Inter', sans-serif;
       background-color: #DAD5CB;
-      color: #111;
+      color: #222;
+    }
+    .container {
       text-align: center;
+      padding: 40px 20px 20px;
     }
-    header img {
-      width: 64px;
-      height: auto;
-      margin-top: 24px;
+    .logo {
+      height: 50px;
+      margin-bottom: 16px;
     }
-    header h1 {
-      font-size: 2rem;
-      margin: 16px 0;
+    .entity-info {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      font-size: 14px;
+      margin-bottom: 30px;
     }
-    .description {
-      margin: 8px auto 20px;
-      max-width: 700px;
+    .entity-info div {
+      min-width: 220px;
     }
-    .entities {
+    .brands {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
       gap: 20px;
-      margin-bottom: 40px;
-    }
-    .entity {
-      text-align: center;
-      font-size: 14px;
-    }
-    .brands {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 24px;
-      margin: 20px auto;
       max-width: 1200px;
+      margin: 0 auto 60px;
     }
-    .brand-card {
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      width: 260px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    .card {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 24px 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      width: 220px;
     }
-    .brand-card img {
-      height: 32px;
+    .card img {
+      height: 28px;
+      margin-bottom: 10px;
       object-fit: contain;
-      margin-bottom: 12px;
+      max-width: 100%;
     }
-    .brand-card h3 {
+    .card img.oneluxe {
+      height: 22px;
+    }
+    .card h3 {
+      margin: 8px 0;
       font-size: 16px;
-      margin: 6px 0;
     }
-    .brand-card p {
-      font-size: 14px;
-      color: #444;
-    }
-    .brand-card a {
-      margin-top: 10px;
-      display: inline-block;
-      background: #111;
-      color: white;
-      padding: 6px 16px;
-      border-radius: 6px;
-      text-decoration: none;
+    .card p {
       font-size: 13px;
+      margin: 8px 0 16px;
+      color: #333;
+    }
+    .card a {
+      background-color: #111;
+      color: #fff;
+      padding: 6px 16px;
+      border-radius: 4px;
+      font-size: 13px;
+      text-decoration: none;
     }
     footer {
-      background-color: #1e1e1e;
-      color: white;
-      padding: 24px 16px;
+      background-color: #222;
+      color: #fff;
+      font-size: 12px;
+      padding: 24px 20px;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      font-size: 13px;
-    }
-    footer div {
-      margin-bottom: 12px;
     }
     footer a {
       color: #fff;
-      text-decoration: underline;
+      text-decoration: none;
       display: block;
-      margin-bottom: 4px;
+      margin-bottom: 6px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/v2_digital.png" alt="V2 Digital Logo" />
+  <div class="container">
+    <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/v2_digital.png" alt="V2 Digital Logo" class="logo"/>
     <h1>V2 Digital Group</h1>
-    <p class="description">
-      A V2 Digital é um grupo internacional com presença nos Estados Unidos, Brasil e Hong Kong, especializado em e-commerce direto ao consumidor. Atuamos por meio de marcas próprias com operações logísticas globais e atendimento multicanal.
+    <p>
+      V2 Digital is a global eCommerce group with registered entities in the United States, Brazil and Hong Kong.<br>
+      We specialize in direct-to-consumer operations with in-house brands, international logistics, and<br>
+      multichannel customer support.
     </p>
-  </header>
 
-  <section class="entities">
-    <div class="entity">
-      🇺🇸 <strong>V2 Digital LLC</strong><br/>
-      EIN: 38-4329604<br/>
-      201 NW 22nd Ave, Fort Lauderdale, FL 33311, USA
+    <div class="entity-info">
+      <div>
+        🇺🇸 <strong>V2 Digital LLC</strong><br>
+        EIN: 38-4329604<br>
+        201 NW 22nd Ave, Fort Lauderdale, FL 33311, USA
+      </div>
+      <div>
+        🇧🇷 <strong>V2 DIGITAL LTDA</strong><br>
+        CNPJ: 53.477.688/0001-61<br>
+        R Mistral, 332, Sala 209A, Edif The Point EMX, Cuiabá - MT, 78048-222
+      </div>
+      <div>
+        🇭🇰 <strong>V2 Digital Limited</strong><br>
+        Registered in Hong Kong<br>
+        Company Registry Number: Not disclosed
+      </div>
     </div>
-    <div class="entity">
-      🇧🇷 <strong>V2 DIGITAL LTDA</strong><br/>
-      CNPJ: 53.477.688/0001-61<br/>
-      R Mistral, 332, Sala 209A, Edif The Point EMX, Cuiabá - MT, 78048-222
-    </div>
-    <div class="entity">
-      🇭🇰 <strong>V2 Digital Limited</strong><br/>
-      Registered in Hong Kong<br/>
-      Company Registry Number: Not disclosed
-    </div>
-  </section>
 
-  <section class="brands">
-    <div class="brand-card">
-      <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/oldmillion.png" alt="Old Million">
-      <h3>Old Million</h3>
-      <p>Relógios premium inspirados na elegância atemporal.</p>
-      <a href="http://old-million.com/">Ver site</a>
+    <div class="brands">
+      <div class="card">
+        <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/oldmillion.png" alt="Old Million" />
+        <h3>Old Million</h3>
+        <p>Timeless watches inspired by classic elegance.</p>
+        <a href="https://old-million.com/" target="_blank">Visit site</a>
+      </div>
+      <div class="card">
+        <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/oldmillion.png" alt="Old Million Elegant" />
+        <h3>Old Million Elegant</h3>
+        <p>Refined elegance, designed with sophistication.</p>
+        <a href="https://oldmillionelegant.com/" target="_blank">Visit site</a>
+      </div>
+      <div class="card">
+        <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/oldmillion.png" alt="Old Million Nautic" />
+        <h3>Old Million Nautic</h3>
+        <p>Marine-inspired watches for aquatic adventures.</p>
+        <a href="https://oldmillionnautic.com/" target="_blank">Visit site</a>
+      </div>
+      <div class="card">
+        <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/oldmillion.png" alt="Old Million Luxe" />
+        <h3>Old Million Luxe</h3>
+        <p>Luxury meets minimalism in this exclusive line.</p>
+        <a href="https://oldmillionluxe.com/" target="_blank">Visit site</a>
+      </div>
+      <div class="card">
+        <img class="oneluxe" src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/oneluxe.png" alt="OneLuxe" />
+        <h3>OneLuxe</h3>
+        <p>Modern elegance made for women.</p>
+        <a href="https://useoneluxe.com/" target="_blank">Visit site</a>
+      </div>
     </div>
-    <div class="brand-card">
-      <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/oldmillion.png" alt="Old Million Elegant">
-      <h3>Old Million Elegant</h3>
-      <p>Design atemporal e elegância refinada.</p>
-      <a href="https://oldmillionelegant.com/">Ver site</a>
-    </div>
-    <div class="brand-card">
-      <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/oldmillion.png" alt="Old Million Nautic">
-      <h3>Old Million Nautic</h3>
-      <p>Estilo náutico para aventuras aquáticas.</p>
-      <a href="https://oldmillionnautic.com/">Ver site</a>
-    </div>
-    <div class="brand-card">
-      <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/oldmillion.png" alt="Old Million Luxe">
-      <h3>Old Million Luxe</h3>
-      <p>Minimalismo luxuoso em uma coleção exclusiva.</p>
-      <a href="https://oldmillionluxe.com/">Ver site</a>
-    </div>
-    <div class="brand-card">
-      <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/oneluxe.png" alt="OneLuxe">
-      <h3>OneLuxe</h3>
-      <p>Elegância moderna com foco no lifestyle feminino.</p>
-      <a href="https://useoneluxe.com/">Ver site</a>
-    </div>
-  </section>
+  </div>
 
   <footer>
     <div>
-      <strong>V2 Digital LLC</strong><br/>
-      Registered in the State of New Mexico, USA<br/>
-      Phone: +1 (347) 204-4527<br/>
+      <strong>V2 Digital LLC</strong><br>
+      Registered in the State of New Mexico, USA<br>
+      Phone: +1 (347) 204-4527<br>
       Email: <a href="mailto:support@v2company.com">support@v2company.com</a>
     </div>
     <div>
