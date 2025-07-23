@@ -1,126 +1,137 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>V2 Digital | Institutional Website</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0e0e0e;
-      color: #fff;
-    }
-    header {
-      background-color: #0e0e0e;
-      text-align: center;
-      padding: 2rem 1rem 0.5rem;
-    }
-    header img {
-      max-width: 220px;
-      height: auto;
-    }
-    .banner {
-      margin: 1.5rem auto;
-      display: block;
-      max-width: 100%;
-      height: auto;
-    }
-    main {
-      max-width: 1000px;
-      margin: auto;
-      padding: 1rem;
-    }
-    h1 {
-      text-align: center;
-      font-size: 2.2rem;
-      margin-bottom: 1rem;
-      color: #e3e3e3;
-    }
-    p {
-      text-align: center;
-      max-width: 700px;
-      margin: 0.5rem auto 2rem;
-      line-height: 1.6;
-    }
-    .brands {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1.5rem;
-      padding: 1rem 0;
-    }
-    .brand-card {
-      background-color: #1a1a1a;
-      border-radius: 12px;
-      padding: 1rem;
-      text-align: center;
-      box-shadow: 0 0 10px rgba(0,0,0,0.4);
-    }
-    .brand-card img {
-      max-height: 60px;
-      margin-bottom: 1rem;
-    }
-    .brand-card a {
-      text-decoration: none;
-      color: #03c1ff;
-      font-weight: bold;
-    }
-    footer {
-      margin-top: 3rem;
-      padding: 2rem 1rem;
-      background-color: #111;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #aaa;
-    }
-    footer a {
-      color: #aaa;
-      margin: 0 0.5rem;
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V2 Digital – E-commerce Group with Global Reach</title>
+    <meta name="description" content="Página institucional do grupo V2 Digital, com presença nos EUA, Brasil e Hong Kong.">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #DAD5CB;
+            color: #222;
+        }
+        header {
+            text-align: center;
+            padding: 30px 20px 10px;
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        h1 {
+            margin-top: 10px;
+        }
+        section.description {
+            text-align: center;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .presence {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+        .presence div {
+            text-align: center;
+        }
+        .brand-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 30px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .brand-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .brand-card img {
+            max-width: 140px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .brand-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #222;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 30px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/v2_digital.png" alt="V2 Digital Logo">
-  </header>
-  <img class="banner" src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/v2_banner.png" alt="Banner V2 Digital"/>
+    <header>
+        <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/v2_digital.png" alt="V2 Digital Logo">
+        <h1>V2 Digital Group</h1>
+    </header>
 
-  <main>
-    <h1>About V2 Digital</h1>
-    <p>
-      The V2 Digital group operates e-commerce brands across the United States, Brazil, and Hong Kong. 
-      Each company shares the same co-founding structure and global standards in logistics, design, and operations.
-    </p>
+    <section class="description">
+        <p>A V2 Digital é um grupo internacional com presença nos Estados Unidos, Brasil e Hong Kong, especializado em e-commerce direto ao consumidor. Atuamos por meio de marcas próprias com operações logísticas globais e atendimento multicanal.</p>
+    </section>
 
-    <div class="brands">
-      <div class="brand-card">
-        <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/oldmillion.png" alt="OldMillion">
-        <div><a href="https://oldmillionelegant.com/" target="_blank">OldMillion Elegant</a></div>
-        <div><a href="https://oldmillionnautic.com/" target="_blank">OldMillion Nautic</a></div>
-        <div><a href="https://oldmillionluxe.com/" target="_blank">OldMillion Luxe</a></div>
-        <div><a href="http://old-million.com/" target="_blank">OldMillion Legacy</a></div>
-      </div>
-      <div class="brand-card">
-        <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/oneluxe.png" alt="OneLuxe">
-        <div><a href="https://useoneluxe.com/" target="_blank">OneLuxe</a></div>
-      </div>
-    </div>
-  </main>
+    <section class="presence">
+        <div>🇺🇸 <strong>V2 Digital LLC</strong><br>EUA</div>
+        <div>🇧🇷 <strong>V2 DIGITAL LTDA</strong><br>Brasil</div>
+        <div>🇭🇰 <strong>V2 Digital Limited</strong><br>Hong Kong</div>
+    </section>
 
-  <footer>
-    <div>
-      <a href="terms.html" target="_blank">Terms of Service</a> |
-      <a href="privacy.html" target="_blank">Privacy Policy</a> |
-      <a href="shipping.html" target="_blank">Shipping Policy</a> |
-      <a href="refund.html" target="_blank">Return & Refund Policy</a>
-    </div>
-    <div style="margin-top:1rem;">
-      Contact: <a href="mailto:support@v2company.com">support@v2company.com</a> | +1 (347) 204-4527
-    </div>
-    <div style="margin-top:0.5rem;">
-      © V2 Digital LLC – All rights reserved.
-    </div>
-  </footer>
+    <section class="brand-grid">
+        <div class="brand-card">
+            <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/oldmillion.png" alt="Old Million Logo">
+            <h3>Old Million</h3>
+            <p>Relógios premium inspirados na elegância atemporal.</p>
+            <a href="https://old-million.com/" target="_blank">Ver site</a>
+        </div>
+        <div class="brand-card">
+            <img src="https://raw.githubusercontent.com/V2DigitalLLC/v2digitalllc.github.io/refs/heads/main/oneluxe.png" alt="OneLuxe Logo">
+            <h3>OneLuxe</h3>
+            <p>Minimalismo e sofisticação com foco no lifestyle contemporâneo.</p>
+            <a href="https://useoneluxe.com/" target="_blank">Ver site</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <strong>V2 Digital LLC</strong><br>
+                Registered in the State of Florida, USA<br>
+                Phone: +1 (347) 204-4527<br>
+                Email: <a href="mailto:support@v2company.com">support@v2company.com</a>
+            </div>
+            <div>
+                <a href="terms.html">Terms of Service</a><br>
+                <a href="privacy.html">Privacy Policy</a><br>
+                <a href="shipping.html">Shipping Policy</a><br>
+                <a href="refund.html">Return & Refund Policy</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
